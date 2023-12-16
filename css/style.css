@@ -226,7 +226,7 @@ a {
 
 .grid {
     display: grid;
-    height: 785px;
+    height: 760px;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 50px;
 }
@@ -265,6 +265,43 @@ a {
     font-weight: bolder;
     width: 70%;
 } 
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    position: relative;
+    
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup img {
+    border: #9b9b9b solid;
+    border-radius: 20px;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 315px;
+    font-size: 70px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
 
 /*
 * About Me
