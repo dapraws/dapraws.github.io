@@ -607,3 +607,166 @@ button.hamburgermenu > i.closeic {
     }
 
 }
+
+@media only screen and (max-width: 420px) {
+    .header-jumbotron > h4 {
+        color: #E9B824;
+        font-size: 1.2rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header-jumbotron > h5 {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        line-height: 4rem;
+        margin: 0px;
+        padding: 0px;
+        text-transform: capitalize;
+    }
+    
+    .header-jumbotron > p {
+        color: #808080;
+        font-size: .7rem;
+        line-height: 2rem;
+        margin: 0px 5px 20px 5px;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333333;
+        text-shadow: none;
+    }
+    
+    .button {
+        background-color: #E9B824;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+    }
+    
+    .button-xl {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    #myskill > .wrapper > .skill > div > p {
+        font-size: .2rem;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #myskill > .wrapper > .skill > div > p > img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+        padding: 0px;
+    }
+
+    #myskill > .wrapper > .skill > div > small {
+        font-size: .8rem;
+        margin: 5px;
+    }
+
+    .grid {
+        display: grid;
+        height: 630px;
+        grid-template-columns: 45% 45%;
+        grid-gap: 20px;
+    }
+
+    .grid > .item > img {
+        width: 86%;
+        position: absolute;
+        border-radius: 10px;
+        border: #333333 solid;
+        top: 55px;
+        left: 7px;
+    }
+
+    .grid > .item > p {
+        width: 97%;
+        position: absolute;
+        left: 0px;
+    }
+    
+    .grid > .item > p > img{
+        width: 25%;
+        height: 25%;
+        padding-top: 130px;
+        position: relative;
+        left: 10%;
+    }
+
+    .grid > .item > .item-detail {
+        color: #000000;
+        padding-left: 10px;
+        font-size: .8rem;
+        font-weight: bolder;
+        width: 90%;
+    } 
+
+    #aboutme > .wrapper > div {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #aboutme > .wrapper > div > .photo {
+        width: 30%;
+    }
+    
+    #aboutme > .wrapper > div > .photo > img {
+        max-width: 100%;
+    }
+
+    #aboutme > .wrapper > div > .desc > p {
+        margin: 0px 0px 10px 0px;
+        font-size: .8rem;
+        line-height: 1.9rem;
+    }
+
+    #aboutme > .wrapper > div > .desc > .social {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        font-size: 1.8rem;
+        padding-top: 5px;
+    }
+
+    #howtofindme > .wrapper > .findme {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #howtofindme > .wrapper > .findme > a{
+        font-size: 1.3rem;
+    }
+
+    button.hamburgermenu {
+        display: inline;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .tampil {
+        display: inline;
+    }
+
+    .tampil > ul {
+        flex-direction: column;
+        background-color: #333333;
+        width: 100%;
+        position: fixed;
+        top: 45px;
+    }
+    
+    .tampil > ul > li {
+        padding: 10px 20px 10px 20px;
+
+    }
+}
